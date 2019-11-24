@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "description": "This is a ES4X empty project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "es4x test index.test.js",
+    "postinstall": "es4x install",
+    "start": "es4x run dist/index.js",
+    "build": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "name": "newapp",
+  "devDependencies": {
+    "@vertx/unit": "^3.8.4",
+    "typescript": "^3.7.2"
+  },
+  "maven": {
+    "groupId": "com.cedarsoft.commons",
+    "artifactId": "id",
+    "version": "8.9.2"
+  },
+  "dependencies": {
+    "@vertx/core": "^3.8.4"
+  }
+}
